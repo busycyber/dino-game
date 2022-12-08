@@ -76,12 +76,12 @@ void showLoss(int y, int x) {
 
 void showTrex(int x, int y) {
 	mvprintw(x-7, y-25, "  ,d");
-	mvprintw(x-6, y-25, "  88 88 88    88");
-	mvprintw(x-5, y-25, "  8b,   88    88PYba, 8b,     ,d8");
-	mvprintw(x-4, y-25, "  88988b88\'   \"Y8 a8P_____88  `Y8, ,8P\' ");
-	mvprintw(x-3, y-25, "  88    88         8PP\"\"\"\"\"\"\"    )888(  ");
-	mvprintw(x-2, y-25, "  88,   88         \"8b,   ,aa  ,d8\" \"8b, ");
-	mvprintw(x-1, y-25, "  \"         `\"Ybbd8\"' 8P\'     `Y8");
+	mvprintw(x-6, y-25, "  88 88 88    88     88");
+	mvprintw(x-5, y-25, "  8b,   88    88P Yba, 8b");
+	mvprintw(x-4, y-25, "  88988b88\'  8b\"Y8");
+	mvprintw(x-3, y-25, "  88    88    88  8b (");
+	mvprintw(x-2, y-25, "  88,   88    8b     88\"");
+	
 }
 
 
